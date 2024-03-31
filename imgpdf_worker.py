@@ -25,8 +25,8 @@ if not "config" in st.session_state:
         ,"languages":["en"]
         ,"scale_x":2
         ,"scale_y":2
-        ,"pdf_path":'C:\\Users\\Barid.Temple\\Anaconda\\envs\\default\\project_files\\easyOCR\\Paccar_Returns\\Mississauga December Return.pdf'
-        ,"poppler_path":"C:\\Users\\Barid.Temple\\Anaconda\\envs\\default\\project_files\\easyOCR\\poppler-23.11.0\\Library\\bin"
+        ,"pdf_path":''
+        ,"poppler_path":"./poppler-23.11.0/Library/bin"
     }
 if not "ocr_reader" in st.session_state:
     st.session_state["ocr_reader"] = easyocr.Reader(st.session_state["config"]["languages"])
