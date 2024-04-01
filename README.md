@@ -18,7 +18,7 @@ Before running the application, make sure you have the following dependencies in
 You can install these dependencies using pip:
 
 ```
-pip install streamlit pandas pdf2image easyocr numpy opencv-python pillow matplotlib
+pip install streamlit pandas pdf2image easyocr numpy opencv-python pillow matplotlib openpyxl
 ```
 
 ## Usage
@@ -26,10 +26,10 @@ pip install streamlit pandas pdf2image easyocr numpy opencv-python pillow matplo
 1. Clone the repository or download the source code.
 2. Install the dependencies mentioned above.
 3. Extract Poppler into the same folder as img_pdf_worker.py
-4. Run the `img_pdf_worker.py.py` file using Streamlit:
+4. Run the `imgpdf_worker.py` file using Streamlit:
 
 ```
-streamlit run img_pdf_worker.py
+python -m streamlit run img_pdf_worker.py
 ```
 
 4. Upload a PDF file containing images.
